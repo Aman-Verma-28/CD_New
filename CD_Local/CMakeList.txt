@@ -23,7 +23,7 @@ if(WIN32 OR CYGWIN)
   set(LLVM_LINK_COMPONENTS
     Support
   )
-  clang_target_link_libraries(warnpostincrement PRIVATE
+  clang_target_link_libraries(WarnPostIncrement PRIVATE
     clangAST
     clangBasic
     clangFrontend
